@@ -1,0 +1,19 @@
+{
+    "name": "sergekukharev/PipelineCollection",
+    "description": "Test Project",
+    "require": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "authors": [
+        {
+            "name": "Serge Kukharev",
+            "email": "serge.kukharev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sergekukharev\\PipelineCollection\\": "src/",
+            "Sergekukharev\\PipelineCollection\\Tests\\": "tests/"
+        }
+    }
+}
